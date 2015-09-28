@@ -19,7 +19,7 @@ macro display_num x,y
   else if x=255
     display '255'
   else
-    display 'her znajet'
+    display 'unknown'
   end if
 
 }
