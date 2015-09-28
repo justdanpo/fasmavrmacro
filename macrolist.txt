@@ -1,0 +1,114 @@
+adc reg1,reg2
+add reg1,reg2
+adiw reg,val
+and reg1,reg2
+andi reg,val
+asr reg
+bclr bit
+bld reg,bit
+brbc bit,address
+brbs bit,address
+brcc address
+brcs address
+break
+breq address
+brge address
+brhc address
+brhs address
+brid address
+brie address
+brlo address
+brlt address
+brmi address
+brne address
+brpl address
+brsh address
+brtc address
+brts address
+brvc address
+brvs address
+bset bit
+bst reg,bit
+call address
+cbi port,bit
+cbr reg,val
+clc
+clh
+cli
+cln
+clr reg
+cls
+clt
+clv
+clz
+com reg
+cp reg1,reg2
+cpc reg1,reg2
+cpi reg,val
+cpse reg1,reg2
+dec reg
+eicall
+eijmp
+elpm reg,arg1
+eor reg1,reg2
+fmul reg1,reg2
+fmuls reg1,reg2
+fmulsu reg1,reg2
+icall
+ijmp
+in reg,port
+inc reg
+jmp address
+ld reg,arg1
+ldd reg,arg1
+ldi reg,val
+lds reg,address
+lpm reg,arg1
+lsl reg
+lsr reg
+mov reg1,reg2
+movw reg1,reg2
+mul reg1,reg2
+muls reg1,reg2
+mulsu reg1,reg2
+neg reg
+nop
+or reg1,reg2
+ori reg,val
+out port,reg
+pop reg
+push reg
+rcall address
+ret
+reti
+rjmp address
+rol reg
+ror reg
+sbc reg1,reg2
+sbci reg,val
+sbi port,bit
+sbic port,bit
+sbis port,bit
+sbiw reg,val
+sbr reg,val
+sbrc reg,bit
+sbrs reg,bit
+sec
+seh
+sei
+sen
+ser reg
+ses
+set
+sev
+sez
+sleep
+spm
+st arg1,reg
+std arg1,reg
+sts address,reg
+sub reg1,reg2
+subi reg,val
+swap reg
+tst reg
+wdr

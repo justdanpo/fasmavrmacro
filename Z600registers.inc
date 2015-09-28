@@ -1,0 +1,49 @@
+;register map for AVR core used in old SonyEricsson phones (Z600)
+
+r0 equ 0
+r1 equ 1
+r2 equ 2
+r3 equ 3
+r4 equ 4
+r5 equ 5
+r6 equ 6
+r7 equ 7
+r8 equ 8
+r8 equ 8
+r9 equ 9
+r10 equ 10
+r11 equ 11
+r12 equ 12
+r13 equ 13
+r14 equ 14
+r15 equ 15
+r16 equ 16
+r17 equ 17
+r18 equ 18
+r19 equ 19
+r20 equ 20
+r21 equ 21
+r22 equ 22
+r23 equ 23
+r24 equ 24
+r25 equ 25
+r26 equ 26
+r27 equ 27
+r28 equ 28
+r29 equ 29
+r30 equ 30
+r31 equ 31
+
+XL equ r26
+XH equ r27
+YL equ r28
+YH equ r29
+ZL equ r30
+ZH equ r31
+
+RAMPX  equ 0x39
+RAMPY  equ 0x3A
+RAMPZ  equ 0x3B
+EIND   equ 0x3C
+SPL    equ 0x3D
+SPH    equ 0x3E
